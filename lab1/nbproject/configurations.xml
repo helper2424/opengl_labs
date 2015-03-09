@@ -36,7 +36,7 @@
           <stripSymbols>true</stripSymbols>
           <architecture>2</architecture>
           <standard>8</standard>
-          <commandLine>-g3 -pg -O0</commandLine>
+          <commandLine>-O3</commandLine>
           <warningLevel>3</warningLevel>
         </ccTool>
       </compileType>
@@ -58,7 +58,9 @@
           <developmentMode>5</developmentMode>
         </cTool>
         <ccTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>8</standard>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>

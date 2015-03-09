@@ -49,8 +49,6 @@ void bresenham(TGAImage& img, const int x0, const int y0, const int x1, const in
 
 int main(int argc, char** argv) {
         TGAImage image(1000, 1000, TGAImage::RGB);
-        //image.set(52, 41, red);
-         // i want to have the origin at the left bottom corner of the image
 	for(uint32_t i = 0; i < 1000000; i++)
 	{
 		bresenham(image, 0,0, 100, 200, white);
